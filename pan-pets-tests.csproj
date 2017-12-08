@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RuntimeFrameworkVersion>2.0.3</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="moq" Version="4.7" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+
+    <ProjectReference Include="..\pan-pets-core\pan-pets-core.csproj" />
+    <ProjectReference Include="..\pan-pets-api\pan-pets-api.csproj" />
+  </ItemGroup>
+
+</Project>
